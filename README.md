@@ -19,6 +19,10 @@ Evaluate discount strategies
 
 Provide business-driven recommendations
 
+
+<img width="1254" height="681" alt="Screenshot 2026-02-19 145354" src="https://github.com/user-attachments/assets/12440f2a-f2a7-49f9-a5ca-198b4a3869cf" />
+
+
 📊 Dataset Summary
 
 Total Records: 3,900
