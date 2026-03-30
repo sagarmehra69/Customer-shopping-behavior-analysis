@@ -1,5 +1,5 @@
 
-🛒 Customer Shopping Behavior Analysis
+# 🛒 Customer Shopping Behavior Analysis
 
 An end-to-end data analytics project analyzing 3,900 customer transactions to uncover spending patterns, customer segments, product preferences, and subscription behavior using Python, SQL, and Power BI.
 
