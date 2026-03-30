@@ -1,11 +1,11 @@
 
-#🛒 Customer Shopping Behavior Analysis
+# 🛒 Customer Shopping Behavior Analysis
 
 An end-to-end data analytics project analyzing 3,900 customer transactions to uncover spending patterns, customer segments, product preferences, and subscription behavior using Python, SQL, and Power BI.
 
 This project transforms raw transactional data into actionable business insights through data cleaning, structured querying, and interactive dashboards.
 
-##📌 Project Objective
+## 📌 Project Objective
 
 The primary goal of this project is to:
 
@@ -23,7 +23,7 @@ Provide business-driven recommendations
 <img width="1254" height="681" alt="Screenshot 2026-02-19 145354" src="https://github.com/user-attachments/assets/12440f2a-f2a7-49f9-a5ca-198b4a3869cf" />
 
 
-##📊 Dataset Summary
+## 📊 Dataset Summary
 
 Total Records: 3,900
 
@@ -31,8 +31,8 @@ Total Columns: 18
 
 Missing Values: 37 (Review Rating column)
 
-##Key Features Included:
-###🔹 Customer Demographics
+## Key Features Included:
+### 🔹 Customer Demographics
 
 Age
 
@@ -40,9 +40,9 @@ Gender
 
 Location
 
-##Subscription Status
+## Subscription Status
 
-###🔹 Purchase Information
+### 🔹 Purchase Information
 
 Item Purchased
 
@@ -56,7 +56,7 @@ Size
 
 Color
 
-##🔹 Shipping & Behavior
+## 🔹 Shipping & Behavior
 
 Discount Applied
 
@@ -70,8 +70,8 @@ Review Rating
 
 Shipping Type
 
-##🐍 Phase 1: Data Analysis Using Python
-###🔹 Data Loading
+## 🐍 Phase 1: Data Analysis Using Python
+### 🔹 Data Loading
 
 Imported dataset using pandas
 
@@ -79,7 +79,7 @@ Checked structure using df.info()
 
 Summary statistics using df.describe()
 
-###🔹 Data Cleaning
+### 🔹 Data Cleaning
 
 Identified missing values
 
@@ -87,7 +87,7 @@ Imputed missing Review Rating using median rating per category
 
 Standardized column names to snake_case
 
-###🔹 Feature Engineering
+### 🔹 Feature Engineering
 
 Created age_group column by binning age
 
@@ -97,13 +97,13 @@ Checked redundancy between discount_applied and promo_code_used
 
 Dropped redundant columns
 
-###🔹 Database Integration
+### 🔹 Database Integration
 
 Connected Python to PostgreSQL using SQLAlchemy
 
 Loaded cleaned dataset into database for SQL-based analysis
 
-##🗄 Phase 2: Business Analysis Using PostgreSQL
+## 🗄 Phase 2: Business Analysis Using PostgreSQL
 
 Performed structured queries to extract business insights.
 
@@ -129,9 +129,9 @@ Repeat buyers and subscription correlation
 
 Revenue contribution by age group
 
-##📊 Phase 3: Interactive Dashboard in Power BI
+## 📊 Phase 3: Interactive Dashboard in Power BI
 
-###Built a fully interactive dashboard to visualize:
+### Built a fully interactive dashboard to visualize:
 
 Revenue trends
 
@@ -147,7 +147,7 @@ Subscription impact
 
 The dashboard enables business stakeholders to make data-driven decisions quickly.
 
-##🧠 Business Insights & Recommendations
+## 🧠 Business Insights & Recommendations
 
 ✔ Promote subscription benefits to increase recurring revenue
 ✔ Launch loyalty programs for repeat buyers
@@ -155,7 +155,7 @@ The dashboard enables business stakeholders to make data-driven decisions quickl
 ✔ Highlight top-rated products in marketing campaigns
 ✔ Target high-revenue age groups with focused advertising
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 Python (Pandas, NumPy, SQLAlchemy)
 
@@ -166,7 +166,7 @@ Power BI
 Jupyter Notebook
 
 
-##🚀 Skills Demonstrated
+## 🚀 Skills Demonstrated
 
 Data Cleaning & Preprocessing
 
@@ -180,7 +180,7 @@ Business Intelligence Dashboarding
 
 End-to-End Data Pipeline
 
-##📌 Key Takeaways
+## 📌 Key Takeaways
 
 This project demonstrates how raw transactional data can be transformed into structured insights using a modern data stack.
 
