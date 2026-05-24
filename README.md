@@ -2,21 +2,15 @@
 # 🛒 Customer Shopping Behavior Analysis
 
 An end-to-end data analytics project analyzing 3,900 customer transactions to uncover spending patterns, customer segments, product preferences, and subscription behavior using Python, SQL, and Power BI.
-
 This project transforms raw transactional data into actionable business insights through data cleaning, structured querying, and interactive dashboards.
 
 ## 📌 Project Objective
 
 The primary goal of this project is to:
-
 Analyze customer purchasing patterns
-
 Identify high-value customer segments
-
 Understand subscription impact on revenue
-
 Evaluate discount strategies
-
 Provide business-driven recommendations
 
 
@@ -25,108 +19,75 @@ Provide business-driven recommendations
 
 ## 📊 Dataset Summary
 
-Total Records: 3,900
-
-Total Columns: 18
-
-Missing Values: 37 (Review Rating column)
+-- Total Records: 3,900
+-- Total Columns: 18
+-- Missing Values: 37 (Review Rating column)
 
 ## Key Features Included:
 ### 🔹 Customer Demographics
 
-Age
-
-Gender
-
-Location
+-- Age
+-- Gender
+-- Location
 
 ## Subscription Status
 
 ### 🔹 Purchase Information
 
-Item Purchased
-
-Category
-
-Purchase Amount
-
-Season
-
-Size
-
-Color
+-- Item Purchased
+-- Category
+-- Purchase Amount
+-- Season
+-- Size
+-- Color
 
 ## 🔹 Shipping & Behavior
 
-Discount Applied
-
-Promo Code Used
-
-Previous Purchases
-
-Frequency of Purchases
-
-Review Rating
-
-Shipping Type
+-- Discount Applied
+-- Promo Code Used
+-- Previous Purchases
+-- Frequency of Purchases
+-- Review Rating
+-- Shipping Type
 
 ## 🐍 Phase 1: Data Analysis Using Python
 ### 🔹 Data Loading
 
-Imported dataset using pandas
-
-Checked structure using df.info()
-
-Summary statistics using df.describe()
+-- Imported dataset using pandas
+-- Checked structure using df.info()
+-- Summary statistics using df.describe()
 
 ### 🔹 Data Cleaning
 
-Identified missing values
-
-Imputed missing Review Rating using median rating per category
-
-Standardized column names to snake_case
+-- Identified missing values
+-- Imputed missing Review Rating using median rating per category
+-- Standardized column names to snake_case
 
 ### 🔹 Feature Engineering
 
-Created age_group column by binning age
-
-Generated purchase_frequency_days
-
-Checked redundancy between discount_applied and promo_code_used
-
-Dropped redundant columns
+-- Created age_group column by binning age
+-- Generated purchase_frequency_days
+-- Checked redundancy between discount_applied and promo_code_used
+-- Dropped redundant columns
 
 ### 🔹 Database Integration
 
-Connected Python to PostgreSQL using SQLAlchemy
-
-Loaded cleaned dataset into database for SQL-based analysis
+-- Connected Python to PostgreSQL using SQLAlchemy
+-- Loaded cleaned dataset into database for SQL-based analysis
 
 ## 🗄 Phase 2: Business Analysis Using PostgreSQL
 
 Performed structured queries to extract business insights.
-
 Key Business Questions Solved:
-
 Revenue comparison by gender
-
 High-spending customers who used discounts
-
 Top 5 highest-rated products
-
 Standard vs Express shipping revenue comparison
-
 Subscribers vs Non-subscribers spending behavior
-
 Discount-dependent products
-
 Customer segmentation (New, Returning, Loyal)
-
 Top 3 products per category
-
 Repeat buyers and subscription correlation
-
 Revenue contribution by age group
 
 ## 📊 Phase 3: Interactive Dashboard in Power BI
@@ -158,27 +119,19 @@ The dashboard enables business stakeholders to make data-driven decisions quickl
 ## 🛠 Tech Stack
 
 Python (Pandas, NumPy, SQLAlchemy)
-
 PostgreSQL
-
 Power BI
-
 Jupyter Notebook
 
 
 ## 🚀 Skills Demonstrated
 
-Data Cleaning & Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-SQL Aggregations & Window Functions
-
-Customer Segmentation
-
-Business Intelligence Dashboarding
-
-End-to-End Data Pipeline
+-- Data Cleaning & Preprocessing
+-- Exploratory Data Analysis (EDA)
+-- SQL Aggregations & Window Functions
+-- Customer Segmentation
+-- Business Intelligence Dashboarding
+-- End-to-End Data Pipeline
 
 ## 📌 Key Takeaways
 
